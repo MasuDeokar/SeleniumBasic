@@ -1,32 +1,279 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="31" passed="30" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-25T10:52:19 IST" name="Default suite" finished-at="2024-01-25T10:52:19 IST" duration-ms="67">
+  <suite started-at="2024-01-25T11:51:50 IST" name="Suite" finished-at="2024-01-25T11:51:50 IST" duration-ms="264">
     <groups>
       <group name="Smoke">
-        <method signature="EducationLoan.LoginMobile()[pri:0, instance:TestNGAll.EducationLoan@59fd97a8]" name="LoginMobile" class="TestNGAll.EducationLoan"/>
+        <method signature="BikeLoan.LoginWeb()[pri:0, instance:TestNGAll.BikeLoan@23bff419]" name="LoginWeb" class="TestNGAll.BikeLoan"/>
+        <method signature="CarLoan.LoginRestAPI()[pri:0, instance:TestNGAll.CarLoan@4097cac]" name="LoginRestAPI" class="TestNGAll.CarLoan"/>
+        <method signature="EducationLoan.LoginMobile()[pri:0, instance:TestNGAll.EducationLoan@ec2cc4]" name="LoginMobile" class="TestNGAll.EducationLoan"/>
+        <method signature="HomeLoan.password()[pri:0, instance:TestNGAll.HomeLoan@7c1e2a2d]" name="password" class="TestNGAll.HomeLoan"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-01-25T10:52:19 IST" name="Default test" finished-at="2024-01-25T10:52:19 IST" duration-ms="67">
-      <class name="TestNGAll.EducationLoan">
-        <test-method signature="LoginMobile()[pri:0, instance:TestNGAll.EducationLoan@59fd97a8]" started-at="2024-01-25T10:52:19 IST" name="LoginMobile" finished-at="2024-01-25T10:52:19 IST" duration-ms="12" status="PASS">
+    <test started-at="2024-01-25T11:51:50 IST" name="Test" finished-at="2024-01-25T11:51:50 IST" duration-ms="264">
+      <class name="TestNGAll.CarLoan">
+        <test-method is-config="true" signature="getFirst()[pri:0, instance:TestNGAll.CarLoan@4097cac]" started-at="2024-01-25T11:51:50 IST" name="getFirst" finished-at="2024-01-25T11:51:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFirst -->
+        <test-method signature="LoginMobile()[pri:0, instance:TestNGAll.CarLoan@4097cac]" started-at="2024-01-25T11:51:50 IST" name="LoginMobile" finished-at="2024-01-25T11:51:50 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginMobile -->
-        <test-method signature="LoginRestAPI()[pri:0, instance:TestNGAll.EducationLoan@59fd97a8]" started-at="2024-01-25T10:52:19 IST" name="LoginRestAPI" finished-at="2024-01-25T10:52:19 IST" duration-ms="1" status="PASS">
+        <test-method signature="LoginRestAPI()[pri:0, instance:TestNGAll.CarLoan@4097cac]" started-at="2024-01-25T11:51:50 IST" name="LoginRestAPI" finished-at="2024-01-25T11:51:50 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginRestAPI -->
-        <test-method signature="LoginWeb()[pri:0, instance:TestNGAll.EducationLoan@59fd97a8]" started-at="2024-01-25T10:52:19 IST" name="LoginWeb" finished-at="2024-01-25T10:52:19 IST" duration-ms="1" status="PASS">
+        <test-method signature="LoginWeb()[pri:0, instance:TestNGAll.CarLoan@4097cac]" started-at="2024-01-25T11:51:50 IST" name="LoginWeb" finished-at="2024-01-25T11:51:50 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWeb -->
-        <test-method signature="password()[pri:0, instance:TestNGAll.EducationLoan@59fd97a8]" started-at="2024-01-25T10:52:19 IST" name="password" finished-at="2024-01-25T10:52:19 IST" duration-ms="1" status="PASS">
+        <test-method signature="password()[pri:0, instance:TestNGAll.CarLoan@4097cac]" started-at="2024-01-25T11:51:50 IST" name="password" finished-at="2024-01-25T11:51:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method is-config="true" signature="getLast()[pri:0, instance:TestNGAll.CarLoan@4097cac]" started-at="2024-01-25T11:51:50 IST" name="getLast" finished-at="2024-01-25T11:51:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLast -->
+      </class> <!-- TestNGAll.CarLoan -->
+      <class name="TestNGAll.IndustrialLoan">
+        <test-method signature="LoginMobile(java.lang.String,java.lang.String)[pri:0, instance:TestNGAll.IndustrialLoan@333dd51e]" started-at="2024-01-25T11:51:50 IST" name="LoginMobile" data-provider="getData" finished-at="2024-01-25T11:51:50 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMobile -->
+        <test-method signature="LoginMobile(java.lang.String,java.lang.String)[pri:0, instance:TestNGAll.IndustrialLoan@333dd51e]" started-at="2024-01-25T11:51:50 IST" name="LoginMobile" data-provider="getData" finished-at="2024-01-25T11:51:50 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMobile -->
+        <test-method signature="LoginMobile(java.lang.String,java.lang.String)[pri:0, instance:TestNGAll.IndustrialLoan@333dd51e]" started-at="2024-01-25T11:51:50 IST" name="LoginMobile" data-provider="getData" finished-at="2024-01-25T11:51:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdSecondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMobile -->
+        <test-method signature="LoginRestAPI()[pri:0, instance:TestNGAll.IndustrialLoan@333dd51e]" started-at="2024-01-25T11:51:50 IST" name="LoginRestAPI" finished-at="2024-01-25T11:51:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginRestAPI -->
+        <test-method signature="LoginWeb()[pri:0, instance:TestNGAll.IndustrialLoan@333dd51e]" started-at="2024-01-25T11:51:50 IST" name="LoginWeb" finished-at="2024-01-25T11:51:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWeb -->
+        <test-method signature="password()[pri:0, instance:TestNGAll.IndustrialLoan@333dd51e]" started-at="2024-01-25T11:51:50 IST" name="password" finished-at="2024-01-25T11:51:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+      </class> <!-- TestNGAll.IndustrialLoan -->
+      <class name="TestNGAll.FurnitureLoan">
+        <test-method signature="RestAPILogin()[pri:0, instance:TestNGAll.FurnitureLoan@2a5b3fee]" started-at="2024-01-25T11:51:50 IST" name="RestAPILogin" finished-at="2024-01-25T11:51:50 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestAPILogin -->
+        <test-method signature="WebLogin(java.lang.String)[pri:0, instance:TestNGAll.FurnitureLoan@2a5b3fee]" started-at="2024-01-25T11:51:50 IST" name="WebLogin" finished-at="2024-01-25T11:51:50 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method WebLogin but has not been marked @Optional or defined
+in C:\Users\Dell\eclipse-workspace\MaSuDeoSeleniumAll\testng2.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method WebLogin but has not been marked @Optional or defined
+in C:\Users\Dell\eclipse-workspace\MaSuDeoSeleniumAll\testng2.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:693)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:888)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:737)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:915)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+        <test-method signature="password()[pri:0, instance:TestNGAll.FurnitureLoan@2a5b3fee]" started-at="2024-01-25T11:51:50 IST" name="password" finished-at="2024-01-25T11:51:50 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+      </class> <!-- TestNGAll.FurnitureLoan -->
+      <class name="TestNGAll.BikeLoan">
+        <test-method signature="LoginMobile(java.lang.String,java.lang.String)[pri:0, instance:TestNGAll.BikeLoan@23bff419]" started-at="2024-01-25T11:51:50 IST" name="LoginMobile" data-provider="getData" finished-at="2024-01-25T11:51:50 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMobile -->
+        <test-method signature="LoginMobile(java.lang.String,java.lang.String)[pri:0, instance:TestNGAll.BikeLoan@23bff419]" started-at="2024-01-25T11:51:50 IST" name="LoginMobile" data-provider="getData" finished-at="2024-01-25T11:51:50 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMobile -->
+        <test-method signature="LoginMobile(java.lang.String,java.lang.String)[pri:0, instance:TestNGAll.BikeLoan@23bff419]" started-at="2024-01-25T11:51:50 IST" name="LoginMobile" data-provider="getData" finished-at="2024-01-25T11:51:50 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdSecondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMobile -->
+        <test-method signature="LoginWeb()[pri:0, instance:TestNGAll.BikeLoan@23bff419]" started-at="2024-01-25T11:51:50 IST" name="LoginWeb" finished-at="2024-01-25T11:51:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWeb -->
+        <test-method signature="password()[pri:0, instance:TestNGAll.BikeLoan@23bff419]" started-at="2024-01-25T11:51:50 IST" name="password" finished-at="2024-01-25T11:51:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method signature="LoginRestAPI()[pri:0, instance:TestNGAll.BikeLoan@23bff419]" started-at="2024-01-25T11:51:50 IST" name="LoginRestAPI" finished-at="2024-01-25T11:51:50 IST" depends-on-methods="TestNGAll.BikeLoan.LoginWeb, TestNGAll.BikeLoan.LoginMobile" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginRestAPI -->
+      </class> <!-- TestNGAll.BikeLoan -->
+      <class name="TestNGAll.PersonalLoan">
+        <test-method is-config="true" signature="BSouite()[pri:0, instance:TestNGAll.PersonalLoan@3d9f6567]" started-at="2024-01-25T11:51:50 IST" name="BSouite" finished-at="2024-01-25T11:51:50 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BSouite -->
+        <test-method signature="LoginMobile()[pri:0, instance:TestNGAll.PersonalLoan@3d9f6567]" started-at="2024-01-25T11:51:50 IST" name="LoginMobile" finished-at="2024-01-25T11:51:50 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMobile -->
+        <test-method signature="LoginRestAPI()[pri:0, instance:TestNGAll.PersonalLoan@3d9f6567]" started-at="2024-01-25T11:51:50 IST" name="LoginRestAPI" finished-at="2024-01-25T11:51:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginRestAPI -->
+        <test-method signature="LoginWeb()[pri:0, instance:TestNGAll.PersonalLoan@3d9f6567]" started-at="2024-01-25T11:51:50 IST" name="LoginWeb" finished-at="2024-01-25T11:51:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWeb -->
+        <test-method signature="password()[pri:0, instance:TestNGAll.PersonalLoan@3d9f6567]" started-at="2024-01-25T11:51:50 IST" name="password" finished-at="2024-01-25T11:51:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+      </class> <!-- TestNGAll.PersonalLoan -->
+      <class name="TestNGAll.EducationLoan">
+        <test-method signature="LoginMobile()[pri:0, instance:TestNGAll.EducationLoan@ec2cc4]" started-at="2024-01-25T11:51:50 IST" name="LoginMobile" finished-at="2024-01-25T11:51:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMobile -->
+        <test-method signature="LoginRestAPI()[pri:0, instance:TestNGAll.EducationLoan@ec2cc4]" started-at="2024-01-25T11:51:50 IST" name="LoginRestAPI" finished-at="2024-01-25T11:51:50 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginRestAPI -->
+        <test-method signature="LoginWeb()[pri:0, instance:TestNGAll.EducationLoan@ec2cc4]" started-at="2024-01-25T11:51:50 IST" name="LoginWeb" finished-at="2024-01-25T11:51:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWeb -->
+        <test-method signature="password()[pri:0, instance:TestNGAll.EducationLoan@ec2cc4]" started-at="2024-01-25T11:51:50 IST" name="password" finished-at="2024-01-25T11:51:50 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- password -->
       </class> <!-- TestNGAll.EducationLoan -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="TestNGAll.HomeLoan">
+        <test-method signature="LoginMobile()[pri:0, instance:TestNGAll.HomeLoan@7c1e2a2d]" started-at="2024-01-25T11:51:50 IST" name="LoginMobile" finished-at="2024-01-25T11:51:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMobile -->
+        <test-method signature="LoginRestAPI()[pri:0, instance:TestNGAll.HomeLoan@7c1e2a2d]" started-at="2024-01-25T11:51:50 IST" name="LoginRestAPI" finished-at="2024-01-25T11:51:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginRestAPI -->
+        <test-method signature="LoginWeb()[pri:0, instance:TestNGAll.HomeLoan@7c1e2a2d]" started-at="2024-01-25T11:51:50 IST" name="LoginWeb" finished-at="2024-01-25T11:51:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWeb -->
+        <test-method signature="password()[pri:0, instance:TestNGAll.HomeLoan@7c1e2a2d]" started-at="2024-01-25T11:51:50 IST" name="password" finished-at="2024-01-25T11:51:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+      </class> <!-- TestNGAll.HomeLoan -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
