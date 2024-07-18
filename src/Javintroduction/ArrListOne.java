@@ -19,7 +19,7 @@ public class ArrListOne {
 		System.out.println("******************************");
 		
 		//Below we convert simple array into ArryList
-		String arr2[]= {"Shamant","Mayuresh","Deokar"};
+		String arr2[]= {"Shamant","Mayuresh","Deokar1"};
 		List<String> arr2ArrayList= Arrays.asList(arr2);
 		System.out.println(arr2ArrayList.contains("Deokar"));
 		
